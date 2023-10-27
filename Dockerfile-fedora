@@ -1,0 +1,8 @@
+FROM fedora:40
+
+RUN dnf install -y \
+    gstreamer1-devel \
+    gstreamer1-plugins-base-devel \
+    gstreamer1-plugins-good \
+    gstreamer1-plugins-good-extras \
+    cmake ninja-build git gcc-c++ ccache
